@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables / Secrets
+.env
+
+# Python Caching & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Data & Local Vector Storage Cache
+data/*.pdf
+data/*.json
+data/*.md
+!data/eval_dataset.json
